@@ -10,10 +10,10 @@
   <packaging>jar</packaging>
 
   <properties>
-    <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.release>25</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- เปลี่ยนเวอร์ชัน API ได้ที่นี่ -->
-    <paper.version>1.21.11-R0.1-SNAPSHOT</paper.version>
+  <paper.version>[26.3.build,)</paper.version>
   </properties>
 
   <repositories>
