@@ -1,0 +1,11 @@
+# ภาษา / language: th หรือ en (แก้ข้อความได้ในไฟล์ messages_th.yml / messages_en.yml)
+language: th
+
+# เลเวลสูงสุดของทุก Enchant (ใช้กับคำสั่งแอดมินและ Anvil)
+max-level: 10
+
+anvil:
+  # รวม Enchant ที่ Anvil โดยไม่มีข้อจำกัดชนิดไอเทม/ข้อขัดแย้ง (Sharpness+Smite, Mending+Infinity ฯลฯ)
+  enabled: true
+  # ค่าเลเวล XP ที่ใช้ต่อครั้ง (ขั้นต่ำ 1 เพราะเกมไม่ให้หยิบผลลัพธ์ถ้าเป็น 0)
+  cost: 5
