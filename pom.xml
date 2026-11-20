@@ -6,14 +6,14 @@
 
   <groupId>dev.anyenchant</groupId>
   <artifactId>AnyEnchant</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <packaging>jar</packaging>
 
   <properties>
     <maven.compiler.release>25</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- เปลี่ยนเวอร์ชัน API ได้ที่นี่ -->
-  <paper.version>[26.3.build,)</paper.version>
+    <paper.version>[26.3.build,)</paper.version>
   </properties>
 
   <repositories>
